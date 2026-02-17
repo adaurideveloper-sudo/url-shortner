@@ -1,0 +1,35 @@
+# Binários e executáveis
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Ignorar arquivos binários resultantes de 'go build'
+bin/
+# Se você usa `go test -c`
+*.test
+
+# Saída do 'go test' (cobertura)
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Diretório de dependências (recomendado para a maioria dos projetos)
+vendor/
+
+# Arquivos de workspace e módulos (geralmente ignorados, exceto em monorepos)
+go.work
+go.work.sum
+
+# Ambiente (env)
+.env
+
+# Editor/IDE (VS Code)
+.vscode/
+# Se usa IDEs da JetBrains (GoLand)
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
