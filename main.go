@@ -16,7 +16,7 @@ func main() {
 
 	http.HandleFunc("/", redirect)
 
-	fmt.Println("Servidor rodando em htpp://localhost:8080")
+	fmt.Println("Servidor rodando em http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 
 }
